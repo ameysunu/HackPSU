@@ -35,14 +35,15 @@ class _ExpensesState extends State<Expenses> {
                         "6th November 2020",
                         style: TextStyle(
                             color: HexColor('#914275'),
-                            fontFamily: 'Metropolis'),
+                            fontFamily: 'SourceSansPro'),
                       ),
                       Padding(
                         padding: const EdgeInsets.only(top: 10.0),
                         child: Text(
                           "GAVE AARON FOR SHOPPING",
                           style: TextStyle(
-                              color: Colors.black54, fontFamily: 'Metropolis'),
+                              color: Colors.black54,
+                              fontFamily: 'SourceSansPro'),
                         ),
                       ),
                     ],
@@ -52,7 +53,7 @@ class _ExpensesState extends State<Expenses> {
                     style: TextStyle(
                         color: Colors.red,
                         fontSize: 18,
-                        fontFamily: 'Metropolis'),
+                        fontFamily: 'SourceSansPro'),
                   ),
                 ],
               ),
@@ -71,14 +72,15 @@ class _ExpensesState extends State<Expenses> {
                         "6th November 2020",
                         style: TextStyle(
                             color: HexColor('#914275'),
-                            fontFamily: 'Metropolis'),
+                            fontFamily: 'SourceSansPro'),
                       ),
                       Padding(
                         padding: const EdgeInsets.only(top: 10.0),
                         child: Text(
                           "GAVE LISA FOR CHIPOTLE",
                           style: TextStyle(
-                              color: Colors.black54, fontFamily: 'Metropolis'),
+                              color: Colors.black54,
+                              fontFamily: 'SourceSansPro'),
                         ),
                       ),
                     ],
@@ -88,7 +90,7 @@ class _ExpensesState extends State<Expenses> {
                     style: TextStyle(
                         color: Colors.red,
                         fontSize: 18,
-                        fontFamily: 'Metropolis'),
+                        fontFamily: 'SourceSansPro'),
                   ),
                 ],
               ),
@@ -107,14 +109,15 @@ class _ExpensesState extends State<Expenses> {
                         "7th November 2020",
                         style: TextStyle(
                             color: HexColor('#914275'),
-                            fontFamily: 'Metropolis'),
+                            fontFamily: 'SourceSansPro'),
                       ),
                       Padding(
                         padding: const EdgeInsets.only(top: 10.0),
                         child: Text(
                           "LISA GAVE FOR UBER",
                           style: TextStyle(
-                              color: Colors.black54, fontFamily: 'Metropolis'),
+                              color: Colors.black54,
+                              fontFamily: 'SourceSansPro'),
                         ),
                       ),
                     ],
@@ -124,7 +127,7 @@ class _ExpensesState extends State<Expenses> {
                     style: TextStyle(
                         color: Colors.green,
                         fontSize: 18,
-                        fontFamily: 'Metropolis'),
+                        fontFamily: 'SourceSansPro'),
                   ),
                 ],
               ),
@@ -143,14 +146,15 @@ class _ExpensesState extends State<Expenses> {
                         "8th November 2020",
                         style: TextStyle(
                             color: HexColor('#914275'),
-                            fontFamily: 'Metropolis'),
+                            fontFamily: 'SourceSansPro'),
                       ),
                       Padding(
                         padding: const EdgeInsets.only(top: 10.0),
                         child: Text(
                           "RITA GAVE FOR LUNCH",
                           style: TextStyle(
-                              color: Colors.black54, fontFamily: 'Metropolis'),
+                              color: Colors.black54,
+                              fontFamily: 'SourceSansPro'),
                         ),
                       ),
                     ],
@@ -160,7 +164,7 @@ class _ExpensesState extends State<Expenses> {
                     style: TextStyle(
                         color: Colors.green,
                         fontSize: 18,
-                        fontFamily: 'Metropolis'),
+                        fontFamily: 'SourceSansPro'),
                   ),
                 ],
               ),
