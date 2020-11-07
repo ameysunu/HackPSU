@@ -119,6 +119,16 @@ class _TutorialsState extends State<Tutorials> {
           ],
         ),
       ),
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {
+          null;
+        },
+        child: Icon(
+          Icons.chat,
+          color: HexColor('#FF8886'),
+        ),
+        backgroundColor: HexColor('#F5E1DB'),
+      ),
     );
   }
 }
