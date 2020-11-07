@@ -85,7 +85,9 @@ class _ChatState extends State<Chat> {
         title: new Text(
           "Chatbot",
           style: TextStyle(
-              fontFamily: 'Poppins', fontSize: 20, color: Colors.grey[600]),
+              fontFamily: 'SourceSansPro',
+              fontSize: 20,
+              color: Colors.grey[600]),
         ),
       ),
       body: new Column(children: <Widget>[
@@ -138,7 +140,7 @@ class ChatMessage extends StatelessWidget {
                     style: new TextStyle(
                         fontWeight: FontWeight.bold,
                         color: Colors.black,
-                        fontFamily: 'Poppins')),
+                        fontFamily: 'SourceSansPro')),
               ),
               new Container(
                 margin: const EdgeInsets.only(top: 5.0),
