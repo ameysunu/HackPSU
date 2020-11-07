@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:hackpsu/chatbot.dart';
 import 'package:hexcolor/hexcolor.dart';
 
 class Tutorials extends StatefulWidget {
@@ -121,7 +122,10 @@ class _TutorialsState extends State<Tutorials> {
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {
-          null;
+          Navigator.push(
+            context,
+            MaterialPageRoute(builder: (context) => Chat()),
+          );
         },
         child: Icon(
           Icons.chat,

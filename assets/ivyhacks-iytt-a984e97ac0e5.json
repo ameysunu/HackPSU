@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "ivyhacks-iytt",
+  "private_key_id": "a984e97ac0e5f8afade9ca6316453c43d4573c06",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDcxXJ5o7LI/+2/\n0nUQHvGgSCSE1uXi3HmoxUt85xyo4o66/UL93INnzbVX4lzmyiqvkTFqxW8jRNSa\nf2hj+GeAkv7UdfVA7+hNdf1+503xg1pHJ802BptDZ7DirmqH9gPztXhjZjWLTzvh\npVuzXWJGh1gpX82QrjBGr0+WVXGBLPppYIQ/t2inJaaQj+eLffntekLq5V0gWZyp\ni2fBO325WD7iGPQerAXDXPv/cq0n63IDOE0uHdLALnaTqSA034iRU79y2vXJHF8M\nbUnWEqBuNteqKyCSszBHXzxtP5//cJHdQBIMSKVfextgoQZo5tqLqZ1RTYXMMdHf\nR8k1B2/1AgMBAAECggEAIoHzRXuWma/VNd87wIARtQOpv6DGcIoVMxHZnYWTV3uI\nI0asZrlFyd8fugOuET3m46fecUm4eCsNTzPceYnNhc2UKtngMpz9MsRfUetuJbKq\nFQat3wSz1pqZzajFCojj7788+M50TpjdK4U4+uV9E7iaiWcJ3tQ3RAkpd75VvkKi\n9M97X3EF401PIOmgnnbk4f3qnRyqJrkRhBK4N4gLwrj4svKLP1vbNYnHBHgri+KC\nbAcRwMdoxdaPKmo/yjDIsTdBD85ssw/33kWEEZ2zPcNfaZ1Ib/ybap78chxtmFyy\n4s4nL6cQE/bvMSYxxTLgOwOyD7i5IuGDsJAPw+jK2QKBgQDt3EIA7/2YULhCZTv0\nRjKgDgUApR3AJ1dNdXG7ZknV1dc/qwXXoLs3NWtqTJF8p+cWSW5g8s9kx6z+MbTQ\nKP2rbZBxOlxp+BDwh2gG8I5iQ4+URdeqMS8QE7fI38Ntu7sQtXaEcnZuflu6DWVs\nIP7dPS395NndHRtiuzbdUv9G/QKBgQDtm48nlAQUETKe7GachNbo95Ku1p6nIMbG\ndNB/wlF7b42U7/UGEKpjHxc/aQO2wxQdFdLzMGzPl17aAPeM1PgjzSPFACvp7Rrt\ngsfQFDyKmh9InYTZa04fe9yBWfg7t12UnFZgdBj1K+hKSahtZMxYWdluJM1ayOyl\nznKKO19qWQKBgBHG3l/3j7psffjoW/y7qljv80vDC2ArEIlHd8KLuIT0wGuPupYM\n+zD7GxYMturcGZc+0bMJMprTmYg96seL6LmBLMRpmjKJSarQU+QA4oNRjU+FkMK1\nflDzSE8I+jAfUbHD/iGT9Gn5o51aFvRn2uRqCB/rlKTD4iIU39rWsyF5AoGAYLYn\nb3GUs2JIm10Xau+61bonLxjWHKp/nblgQBAkwDwogY2lyqEv6QZ3nOyugU4nuqru\nYOO99kTja5JnMCBjG5dczsuCFEXY5wGLOMtz1Opkf1b2AtTlSHVOzCuFmTDKWznD\nAqFeozQK6WnPry8O6Yswr9804pXTlK1R+6es74kCgYAQvOz/N63JLDqFbWO1nqH9\nENxbs3WGrd1WwnWJMg1nqRUHQbIgwC+75XZHVP7CZ0dN92oZrDfbD3GLu1ytLNlB\nH/H/wDSZYI4zWWHK6My3fQRdCHUCRQwgYF2TvLl54lDWaUE1psZIlHBFety9J+bn\nwXh8nqedmyBrCS5jjpCxhg==\n-----END PRIVATE KEY-----\n",
+  "client_email": "healthchat@ivyhacks-iytt.iam.gserviceaccount.com",
+  "client_id": "108340080379827452628",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/healthchat%40ivyhacks-iytt.iam.gserviceaccount.com"
+}
