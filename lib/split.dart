@@ -25,7 +25,52 @@ class _SplitState extends State<Split> {
       body: SafeArea(
         child: SingleChildScrollView(
           child: Column(
-            children: [],
+            children: [
+              Padding(
+                padding: const EdgeInsets.all(10.0),
+                child: RaisedButton(
+                  color: HexColor('#FE8A7E'),
+                  child: Container(
+                    height: 50,
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        Text(
+                          "Create an expense",
+                          style: TextStyle(
+                              color: Colors.white,
+                              fontFamily: "SourceSansPro",
+                              fontSize: 18),
+                        ),
+                        Padding(
+                          padding: const EdgeInsets.all(10.0),
+                          child: Icon(
+                            Icons.edit,
+                            color: Colors.white,
+                          ),
+                        )
+                      ],
+                    ),
+                  ),
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(10.0),
+                  ),
+                  onPressed: () {
+                    //   signInWithGoogle().then((result) {
+                    //     if (result != null) {
+                    //       Navigator.of(context).push(
+                    //         MaterialPageRoute(
+                    //           builder: (context) {
+                    //             return HomeWidget();
+                    //           },
+                    //         ),
+                    //       );
+                    //     }
+                    //   });
+                  },
+                ),
+              ),
+            ],
           ),
         ),
       ),
