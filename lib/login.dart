@@ -33,12 +33,10 @@ Future<String> signInWithGoogle() async {
     assert(user.displayName != null);
     assert(user.photoURL != null);
 
-    // Store the retrieved data
     name = user.displayName;
     email = user.email;
     imageUrl = user.photoURL;
 
-    // Only taking the first part of the name, i.e., First Name
     if (name.contains(" ")) {
       name = name.substring(0, name.indexOf(" "));
     }
