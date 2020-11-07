@@ -50,7 +50,7 @@ class _SplitState extends State<Split> {
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
                           Text(
-                            "Create an expense",
+                            "Check my expenses",
                             style: TextStyle(
                                 color: Colors.white,
                                 fontFamily: "SourceSansPro",
@@ -59,7 +59,7 @@ class _SplitState extends State<Split> {
                           Padding(
                             padding: const EdgeInsets.all(10.0),
                             child: Icon(
-                              Icons.edit,
+                              Icons.monetization_on,
                               color: Colors.white,
                             ),
                           )
@@ -133,7 +133,7 @@ class _SplitState extends State<Split> {
                                   child: Text(
                                     "You Owe",
                                     style: TextStyle(
-                                        fontFamily: 'Metropolis',
+                                        fontFamily: 'SourceSansPro',
                                         color: Colors.white,
                                         fontSize: 20),
                                   ),
@@ -143,7 +143,7 @@ class _SplitState extends State<Split> {
                                   child: Text(
                                     "Check how much you owe your friends",
                                     style: TextStyle(
-                                        fontFamily: 'Metropolis',
+                                        fontFamily: 'SourceSansPro',
                                         color: Colors.white54,
                                         fontSize: 15),
                                   ),
@@ -189,7 +189,7 @@ class _SplitState extends State<Split> {
                                   child: Text(
                                     "They Owe",
                                     style: TextStyle(
-                                        fontFamily: 'Metropolis',
+                                        fontFamily: 'SourceSansPro',
                                         color: Colors.white,
                                         fontSize: 20),
                                   ),
@@ -199,7 +199,7 @@ class _SplitState extends State<Split> {
                                   child: Text(
                                     "Check how much your friends owe you.",
                                     style: TextStyle(
-                                        fontFamily: 'Metropolis',
+                                        fontFamily: 'SourceSansPro',
                                         color: Colors.white54,
                                         fontSize: 15),
                                   ),
