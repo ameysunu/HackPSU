@@ -81,7 +81,7 @@ class _TutorialsState extends State<Tutorials> {
                 )),
               ),
               Container(
-                color: HexColor('#85658C'),
+                color: HexColor('#C58B7D'),
                 height: 100,
                 child: Center(
                     child: Text(
@@ -93,7 +93,7 @@ class _TutorialsState extends State<Tutorials> {
                 )),
               ),
               Container(
-                color: HexColor('#515979'),
+                color: HexColor('#DF867C'),
                 height: 100,
                 child: Center(
                     child: Text(
@@ -105,7 +105,7 @@ class _TutorialsState extends State<Tutorials> {
                 )),
               ),
               Container(
-                color: HexColor('#2F4858'),
+                color: HexColor('#EBA86A'),
                 height: 100,
                 child: Center(
                     child: Text(
