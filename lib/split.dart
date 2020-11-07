@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:hackpsu/pages/expenses.dart';
 import 'package:hackpsu/pages/iowe.dart';
+import 'package:hackpsu/pages/theyowe.dart';
 import 'package:hexcolor/hexcolor.dart';
 
 class Split extends StatefulWidget {
@@ -160,11 +161,11 @@ class _SplitState extends State<Split> {
                         width: 175,
                         child: InkWell(
                           onTap: () {
-                            // Navigator.push(
-                            //   context,
-                            //   MaterialPageRoute(
-                            //       builder: (context) => Cards()),
-                            // );
+                            Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                  builder: (context) => TheyOwe()),
+                            );
                           },
                           child: Card(
                             elevation: 5,
