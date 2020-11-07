@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:hackpsu/split.dart';
 import 'package:hackpsu/tutorials.dart';
 import 'package:hexcolor/hexcolor.dart';
 
@@ -13,7 +14,7 @@ class _HomeWidgetState extends State<HomeWidget> {
 
   final List<Widget> _widgetOptions = [
     Tutorials(),
-    // AR(),
+    Split(),
     // User(),
   ];
 

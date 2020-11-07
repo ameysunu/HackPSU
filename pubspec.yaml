@@ -74,6 +74,10 @@ flutter:
       fonts:
         - asset: fonts/Roboto-Medium.ttf
 
+    - family: SourceSansPro 
+      fonts:
+        - asset: fonts/SourceSansPro-Regular.ttf
+
   #   - family: Trajan Pro
   #     fonts:
   #       - asset: fonts/TrajanPro.ttf
