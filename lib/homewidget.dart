@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:hackpsu/quiz.dart';
 import 'package:hackpsu/split.dart';
 import 'package:hackpsu/tutorials.dart';
+import 'package:hackpsu/user.dart';
 import 'package:hexcolor/hexcolor.dart';
 
 class HomeWidget extends StatefulWidget {
@@ -17,6 +18,7 @@ class _HomeWidgetState extends State<HomeWidget> {
     Tutorials(),
     Split(),
     Quiz(),
+    User(),
   ];
 
   Widget build(BuildContext context) {
