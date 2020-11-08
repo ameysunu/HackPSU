@@ -212,7 +212,7 @@ class _TutorialsState extends State<Tutorials> {
 
 _showCard() async {
   const url =
-      'https://console.echoar.xyz/samples/ar.js-chrome/odd-moon-9343_1604789071001/index_odd-moon-9343_1604789071001.html';
+      'https://console.echoar.xyz/samples/ar.js-chrome/rough-lab-4051_1604820699720/index_rough-lab-4051_1604820699720.html';
   if (await canLaunch(url)) {
     await launch(url);
   } else {
@@ -222,7 +222,7 @@ _showCard() async {
 
 _showATM() async {
   const url =
-      'https://console.echoar.xyz/samples/ar.js-chrome/odd-moon-9343_1604789937291/index_odd-moon-9343_1604789937291.html';
+      'https://console.echoar.xyz/samples/ar.js-chrome/rough-lab-4051_1604821507402/index_rough-lab-4051_1604821507402.html';
   if (await canLaunch(url)) {
     await launch(url);
   } else {
