@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:hackpsu/homewidget.dart';
 import 'package:hackpsu/login.dart';
 import 'package:hexcolor/hexcolor.dart';
 
@@ -176,32 +177,73 @@ class _AvatarState extends State<Avatar> {
                     'https://i.kym-cdn.com/entries/icons/original/000/018/385/Rs_634x1024-130605092844-634.DespMe2.mh.060513.jpg'),
                 radius: 45,
               ),
+              onTap: () {
+                imageCache.clear();
+                imageUrl =
+                    'https://i.kym-cdn.com/entries/icons/original/000/018/385/Rs_634x1024-130605092844-634.DespMe2.mh.060513.jpg';
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => HomeWidget()),
+                );
+              },
             ),
             Padding(
               padding: const EdgeInsets.only(left: 10.0),
-              child: CircleAvatar(
-                backgroundColor: Colors.white,
-                backgroundImage: NetworkImage(
-                    'https://upload.wikimedia.org/wikipedia/en/5/53/Scooby-Doo.png'),
-                radius: 45,
+              child: InkWell(
+                child: CircleAvatar(
+                  backgroundColor: Colors.white,
+                  backgroundImage: NetworkImage(
+                      'https://upload.wikimedia.org/wikipedia/en/5/53/Scooby-Doo.png'),
+                  radius: 45,
+                ),
+                onTap: () {
+                  imageCache.clear();
+                  imageUrl =
+                      'https://upload.wikimedia.org/wikipedia/en/5/53/Scooby-Doo.png';
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => HomeWidget()),
+                  );
+                },
               ),
             ),
             Padding(
               padding: const EdgeInsets.only(left: 10.0),
-              child: CircleAvatar(
-                backgroundColor: Colors.white,
-                backgroundImage: NetworkImage(
-                    'https://i.ibb.co/jhjvLBT/ezgif-com-gif-maker.png'),
-                radius: 45,
+              child: InkWell(
+                child: CircleAvatar(
+                  backgroundColor: Colors.white,
+                  backgroundImage: NetworkImage(
+                      'https://i.ibb.co/jhjvLBT/ezgif-com-gif-maker.png'),
+                  radius: 45,
+                ),
+                onTap: () {
+                  imageCache.clear();
+                  imageUrl = 'https://i.ibb.co/jhjvLBT/ezgif-com-gif-maker.png';
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => HomeWidget()),
+                  );
+                },
               ),
             ),
             Padding(
               padding: const EdgeInsets.only(left: 10.0),
-              child: CircleAvatar(
-                backgroundColor: Colors.white,
-                backgroundImage: NetworkImage(
-                    'https://i.ibb.co/7nx3bG6/ezgif-com-gif-maker-1.png'),
-                radius: 45,
+              child: InkWell(
+                child: CircleAvatar(
+                  backgroundColor: Colors.white,
+                  backgroundImage: NetworkImage(
+                      'https://i.ibb.co/7nx3bG6/ezgif-com-gif-maker-1.png'),
+                  radius: 45,
+                ),
+                onTap: () {
+                  imageCache.clear();
+                  imageUrl =
+                      'https://i.ibb.co/7nx3bG6/ezgif-com-gif-maker-1.png';
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => HomeWidget()),
+                  );
+                },
               ),
             ),
           ],

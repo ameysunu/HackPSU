@@ -12,8 +12,8 @@ class Answers extends StatelessWidget {
     return Container(
       child: InkWell(
         child: Container(
-          height: 190,
-          width: 190,
+          height: 170,
+          width: 170,
           child: Card(
             color: HexColor('#EF5596'),
             child: Padding(
