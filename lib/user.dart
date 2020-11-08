@@ -71,10 +71,10 @@ class _UserState extends State<User> {
                       borderRadius: BorderRadius.circular(10.0),
                     ),
                     onPressed: () {
-                      // Navigator.push(
-                      //   context,
-                      //   MaterialPageRoute(builder: (context) => Expenses()),
-                      // );
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(builder: (context) => Avatar()),
+                      );
                     },
                   ),
                 ),
@@ -140,6 +140,71 @@ class _UserState extends State<User> {
               ],
             ),
           ),
+        ),
+      ),
+    );
+  }
+}
+
+class Avatar extends StatefulWidget {
+  @override
+  _AvatarState createState() => _AvatarState();
+}
+
+class _AvatarState extends State<Avatar> {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      backgroundColor: HexColor('#EBBF6A'),
+      appBar: AppBar(
+        automaticallyImplyLeading: false,
+        elevation: 0,
+        backgroundColor: HexColor('#EBBF6A'),
+        title: Text(
+          "Choose your avatar",
+          style: TextStyle(fontFamily: 'SourceSansPro', color: Colors.black),
+        ),
+      ),
+      body: Padding(
+        padding: const EdgeInsets.all(10.0),
+        child: Row(
+          children: [
+            InkWell(
+              child: CircleAvatar(
+                backgroundColor: Colors.white,
+                backgroundImage: NetworkImage(
+                    'https://i.kym-cdn.com/entries/icons/original/000/018/385/Rs_634x1024-130605092844-634.DespMe2.mh.060513.jpg'),
+                radius: 45,
+              ),
+            ),
+            Padding(
+              padding: const EdgeInsets.only(left: 10.0),
+              child: CircleAvatar(
+                backgroundColor: Colors.white,
+                backgroundImage: NetworkImage(
+                    'https://upload.wikimedia.org/wikipedia/en/5/53/Scooby-Doo.png'),
+                radius: 45,
+              ),
+            ),
+            Padding(
+              padding: const EdgeInsets.only(left: 10.0),
+              child: CircleAvatar(
+                backgroundColor: Colors.white,
+                backgroundImage: NetworkImage(
+                    'https://i.ibb.co/jhjvLBT/ezgif-com-gif-maker.png'),
+                radius: 45,
+              ),
+            ),
+            Padding(
+              padding: const EdgeInsets.only(left: 10.0),
+              child: CircleAvatar(
+                backgroundColor: Colors.white,
+                backgroundImage: NetworkImage(
+                    'https://i.ibb.co/7nx3bG6/ezgif-com-gif-maker-1.png'),
+                radius: 45,
+              ),
+            ),
+          ],
         ),
       ),
     );
