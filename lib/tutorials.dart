@@ -150,7 +150,7 @@ class _TutorialsState extends State<Tutorials> {
                   children: [
                     Center(
                         child: Text(
-                      "HOW TO SPLIT MONEY",
+                      "MOBILE BANKING WITH CAPITAL ONE",
                       style: TextStyle(
                           color: Colors.black,
                           fontFamily: 'Roboto Medium',
@@ -159,7 +159,7 @@ class _TutorialsState extends State<Tutorials> {
                     IconButton(
                       icon: Icon(Icons.arrow_forward_ios),
                       onPressed: () {
-                        null;
+                        _showVideo();
                       },
                     )
                   ],
@@ -223,6 +223,16 @@ _showCard() async {
 _showATM() async {
   const url =
       'https://console.echoar.xyz/samples/ar.js-chrome/odd-moon-9343_1604789937291/index_odd-moon-9343_1604789937291.html';
+  if (await canLaunch(url)) {
+    await launch(url);
+  } else {
+    throw 'Could not launch $url';
+  }
+}
+
+_showVideo() async {
+  const url =
+      "https://console.echoar.xyz/samples/ar.js-chrome/rough-lab-4051_1604819504912/index_rough-lab-4051_1604819504912.html";
   if (await canLaunch(url)) {
     await launch(url);
   } else {
