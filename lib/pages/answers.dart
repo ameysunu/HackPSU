@@ -16,27 +16,22 @@ class Answers extends StatelessWidget {
           width: 190,
           child: Card(
             color: HexColor('#EF5596'),
-            child: Center(
-                child: Text(
-              answertext,
-              style: TextStyle(
-                  fontFamily: 'SourceSansPro',
-                  fontSize: 25,
-                  fontWeight: FontWeight.bold,
-                  color: Colors.white),
-            )),
+            child: Padding(
+              padding: const EdgeInsets.all(10.0),
+              child: Center(
+                  child: Text(
+                answertext,
+                style: TextStyle(
+                    fontFamily: 'SourceSansPro',
+                    fontSize: 20,
+                    fontWeight: FontWeight.bold,
+                    color: Colors.white),
+              )),
+            ),
           ),
         ),
         onTap: answerfun,
       ),
-      // child: RaisedButton(
-      //     color: HexColor('#FF855E'),
-      //     textColor: Colors.black87,
-      //     child: Text(
-      //       answertext,
-      //       style: TextStyle(fontSize: 15, fontFamily: 'Poppins'),
-      //     ),
-      //     onPressed: answerfun),
     );
   }
 }
