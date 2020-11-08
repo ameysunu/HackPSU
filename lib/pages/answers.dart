@@ -23,7 +23,7 @@ class Answers extends StatelessWidget {
                 answertext,
                 style: TextStyle(
                     fontFamily: 'SourceSansPro',
-                    fontSize: 20,
+                    fontSize: 17,
                     fontWeight: FontWeight.bold,
                     color: Colors.white),
               )),
