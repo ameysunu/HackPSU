@@ -16,7 +16,10 @@ class Questions extends StatelessWidget {
         padding: const EdgeInsets.all(10.0),
         child: Text(
           questionText,
-          style: TextStyle(fontSize: 20, fontFamily: 'SourceSansPro'),
+          style: TextStyle(
+              fontSize: 20,
+              fontFamily: 'SourceSansPro',
+              fontWeight: FontWeight.bold),
           textAlign: TextAlign.center,
         ),
       ),

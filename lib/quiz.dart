@@ -22,39 +22,33 @@ class _QuizState extends State<Quiz> {
   }
 
   var questions = [
-    "The metal whose salts are sensitive to light is ?",
-    "The device used for measuring altitudes is ?",
-    "The Gate way of India is ?",
-    "The first chairman of the Atomic Energy Commission was ?",
-    " D.D.T. was invented by ? "
+    "Why is a card number super long?",
+    "Can you share your pin number with anyone?",
+    "What do you do with your card when using a bank machine?",
   ];
   var ans1 = [
-    {"text": "Silver", "score": 10},
-    {"text": "Ammeter", "score": 0},
-    {"text": "Goa", "score": 0},
-    {"text": "Dr.H.J.Bhabha", "score": 10},
-    {"text": "Rudeolf", "score": 0}
+    {"text": "Cause it makes it easier to remember", "score": 0},
+    {"text": "Yes!", "score": 0},
+    {"text": "Nothing, you don't need to use it at all", "score": 0},
   ];
   var ans2 = [
-    {"text": "Gold", "score": 0},
-    {"text": "Altimeter", "score": 10},
-    {"text": "Kolkata", "score": 0},
-    {"text": "Dr.Vikram Sarabhai", "score": 0},
-    {"text": "Dalton", "score": 0}
+    {"text": "Cause it makes it harder to remember", "score": 10},
+    {"text": "No!! shhhh...", "score": 10},
+    {"text": "You need to type your card number into the machine", "score": 0},
   ];
   var ans3 = [
-    {"text": "Alumunium", "score": 0},
-    {"text": "Galvanometer", "score": 0},
-    {"text": "Mumbai", "score": 10},
-    {"text": "Dr.A.P.J.Abdul Kalam", "score": 0},
-    {"text": "Mosle", "score": 10}
+    {"text": "It's a phone number so it has to be long", "score": 0},
+    {"text": " Yeah I can tell my bestfriends", "score": 0},
+    {
+      "text":
+          " You need to place the card into the rectangular hole in the machine",
+      "score": 10
+    },
   ];
   var ans4 = [
-    {"text": "Alumunium", "score": 0},
-    {"text": "Galvanometer", "score": 0},
-    {"text": "Mumbai", "score": 10},
-    {"text": "Dr.A.P.J.Abdul Kalam", "score": 0},
-    {"text": "Mosle", "score": 10}
+    {"text": " It's not always long", "score": 0},
+    {"text": " None of the above", "score": 0},
+    {"text": "You need to scan it with the machine", "score": 0},
   ];
   @override
   Widget build(BuildContext context) {
@@ -69,7 +63,7 @@ class _QuizState extends State<Quiz> {
           backgroundColor: HexColor('#AD2DA8'),
         ),
         backgroundColor: HexColor('#EBBF6A'),
-        body: _questionIndex < 5
+        body: _questionIndex < 3
             ? Padding(
                 padding: const EdgeInsets.all(10.0),
                 child: Column(
