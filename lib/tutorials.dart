@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:hackpsu/chatbot.dart';
+import 'package:hackpsu/pages/cards.dart';
 import 'package:hexcolor/hexcolor.dart';
 import 'package:url_launcher/url_launcher.dart';
 
@@ -63,7 +64,10 @@ class _TutorialsState extends State<Tutorials> {
                     IconButton(
                       icon: Icon(Icons.arrow_forward_ios),
                       onPressed: () {
-                        _showCard();
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(builder: (context) => Cards()),
+                        );
                       },
                     )
                   ],
@@ -207,16 +211,6 @@ class _TutorialsState extends State<Tutorials> {
         backgroundColor: HexColor('#F5E1DB'),
       ),
     );
-  }
-}
-
-_showCard() async {
-  const url =
-      'https://console.echoar.xyz/samples/ar.js-chrome/rough-lab-4051_1604820699720/index_rough-lab-4051_1604820699720.html';
-  if (await canLaunch(url)) {
-    await launch(url);
-  } else {
-    throw 'Could not launch $url';
   }
 }
 
